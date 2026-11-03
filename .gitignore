@@ -1,20 +1,21 @@
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-.pytest_cache/
-.mypy_cache/
-
-# Virtual environments
 .venv/
 venv/
-env/
 
-# Environment / secrets
+# Vercel
+.vercel/
+
+# Env / secrets
 .env
 .env.*
 !.env.example
-.streamlit/secrets.toml
 
 # IDE / OS
 .vscode/
@@ -23,17 +24,16 @@ env/
 Thumbs.db
 desktop.ini
 
-# Notebook / logs
-.ipynb_checkpoints/
+# Logs
 *.log
+npm-debug.log*
 
-# Temporary files
-*.tmp
-*.bak
+# Old Streamlit prototype
+13_streamlit_app.py
 
-# Local dataset (not committed by default)
-data/Reddit_depression_dataset.csv
+# Raw dataset
+data/
 
+# Keep only deployment model in root models folder
 models/*.joblib
 !models/deployment_text_classifier.joblib
-13_streamlit_app.py
