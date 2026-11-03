@@ -1,6 +1,0 @@
-pyproject.toml
-depression_severity_classifier_api.egg-info/PKG-INFO
-depression_severity_classifier_api.egg-info/SOURCES.txt
-depression_severity_classifier_api.egg-info/dependency_links.txt
-depression_severity_classifier_api.egg-info/requires.txt
-depression_severity_classifier_api.egg-info/top_level.txt

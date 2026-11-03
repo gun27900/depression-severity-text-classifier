@@ -38,3 +38,4 @@ data/
 models/*.joblib
 !models/deployment_text_classifier.joblib
 .vercel
+*.egg-info/
