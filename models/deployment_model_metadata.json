@@ -1,0 +1,34 @@
+{
+  "model_purpose": "deployment/demo",
+  "method": "TF-IDF Bigram + Balanced Logistic Regression",
+  "trained_at": "2026-08-02T19:20:40",
+  "dataset_file": "data\\Reddit_depression_dataset.csv",
+  "training_records": 3534,
+  "label_distribution": {
+    "mild": 290,
+    "minimal": 2568,
+    "moderate": 394,
+    "severe": 282
+  },
+  "classes": [
+    "mild",
+    "minimal",
+    "moderate",
+    "severe"
+  ],
+  "vocabulary_size": 36151,
+  "parameters": {
+    "lowercase": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_df": 0.95,
+    "sublinear_tf": true,
+    "class_weight": "balanced",
+    "max_iter": 3000,
+    "random_state": 42
+  },
+  "evaluation_note": "โมเดลไฟล์นี้ฝึกด้วยข้อมูลที่ทำความสะอาดทั้งหมด จึงไม่ใช้คะแนนจากข้อมูลฝึกเป็นผลประเมิน ผลประเมินให้ใช้ไฟล์จาก 07_cross_validation_final_test.py"
+}

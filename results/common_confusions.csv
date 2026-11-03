@@ -1,0 +1,13 @@
+﻿actual,predicted,count
+minimum,moderate,43
+moderate,minimum,34
+mild,minimum,27
+minimum,severe,26
+severe,minimum,21
+mild,moderate,13
+minimum,mild,13
+mild,severe,9
+severe,moderate,8
+moderate,severe,8
+moderate,mild,3
+severe,mild,3

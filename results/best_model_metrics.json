@@ -1,0 +1,8 @@
+{
+  "model": "TF-IDF bigram + Balanced LR",
+  "accuracy": 0.7057991513437057,
+  "precision_macro": 0.46676080705817374,
+  "recall_macro": 0.4636476288175035,
+  "f1_macro": 0.45604848626272765,
+  "f1_weighted": 0.7020416915221811
+}

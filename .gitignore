@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Notebook / logs
+.ipynb_checkpoints/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Local dataset (not committed by default)
+data/Reddit_depression_dataset.csv
+
+models/*.joblib
+!models/deployment_text_classifier.joblib
+13_streamlit_app.py

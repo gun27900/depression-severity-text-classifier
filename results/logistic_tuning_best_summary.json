@@ -1,0 +1,19 @@
+{
+  "selection_method": "5-fold cross-validation mean macro F1",
+  "total_clean_records": 3534,
+  "tested_configurations": 48,
+  "best_params": {
+    "model__C": "1.0",
+    "model__class_weight": "balanced",
+    "vectorizer__min_df": "3",
+    "vectorizer__ngram_range": "(1, 2)"
+  },
+  "best_cv_f1_macro_mean": 0.43620553134498774,
+  "best_cv_f1_macro_std": 0.00872381419741436,
+  "best_cv_accuracy_mean": 0.6946752627508805,
+  "best_cv_f1_weighted_mean": 0.6969066044265133,
+  "best_cv_recall_mild_mean": 0.2,
+  "best_cv_recall_moderate_mean": 0.39850697825381365,
+  "best_cv_recall_severe_mean": 0.3369674185463659,
+  "important_note": "Behavioral Test เป็น Sanity Check เท่านั้น และไม่ได้ถูกใช้เลือกพารามิเตอร์"
+}

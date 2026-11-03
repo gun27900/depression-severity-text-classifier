@@ -1,0 +1,5 @@
+﻿,predicted_mild,predicted_minimum,predicted_moderate,predicted_severe
+actual_mild,9,27,13,9
+actual_minimum,13,432,43,26
+actual_moderate,3,34,34,8
+actual_severe,3,21,8,24
